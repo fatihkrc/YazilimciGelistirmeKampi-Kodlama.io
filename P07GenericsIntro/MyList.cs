@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Text;
 
@@ -23,6 +24,16 @@ namespace P07GenericsIntro
             }
 
             items[items.Length - 1] = item;
+        }
+
+        public int Length
+        {
+            get { return items.Length; }
+        }
+        
+        public T[] Items
+        {
+            get { return items; }
         }
     }
 }

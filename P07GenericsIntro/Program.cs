@@ -8,8 +8,17 @@ namespace P07GenericsIntro
         {
             MyList<string> names = new MyList<string>();
             names.Add("Fatih");
-            
-            Console.WriteLine("Hello World!");
+            names.Add("Yakup");
+            names.Add("Dilber");
+            names.Add("Abdullah Hilmi");
+            names.Add("Melek");
+
+            Console.WriteLine("Liste Eleman Sayısı : {0}", names.Length);
+
+            foreach (var item in names.Items)
+            {
+                Console.WriteLine(item);
+            }
         }
     }
 }
