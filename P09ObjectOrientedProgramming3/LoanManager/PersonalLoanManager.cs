@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace P09ObjectOrientedProgramming3
+namespace P09ObjectOrientedProgramming3.LoanManager
 {
     class PersonalLoanManager : ILoanManager
     {
